@@ -1,0 +1,53 @@
+﻿
+
+/*----------------------common-------------------------*/
+*{ margin:0; padding:0; font-family:Microsoft YaHei;}
+.clear{ clear:both;}
+.center{ text-align:center;}
+img{ border:none;}
+a{ text-decoration:none;}
+a:hover{ text-decoration:underline;}
+li{ list-style-type:none;}
+body{ background:#fff;}
+
+.container{   width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */}
+
+
+.card-white{background: white;                         /* White background */
+padding: 30px;                             /* Internal space */
+border-radius: 4px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */ color:#7f859c; font-family:Arial, Helvetica, sans-serif;}
+.card-white h2{ font-size:26px; line-height:80px; color:#7f859c; font-family:"Arial Black", Gadget, sans-serif;}
+.card-white h3{ font-size:18px; line-height:30px; color:#7f859c;}
+.card-white h4{ font-size:22px; line-height:50px; color:#5de2b3;}
+
+.logo{ width:100px; height:100px; margin:10px auto;}
+
+.discover { width:150px; height:40px; margin:20px auto; background:#6b71e0; font-size:18px; line-height:40px; color:#fff; text-align:center;border-radius: 5px;}
+.discover:hover{ width:150px; height:40px; margin:20px auto; background:#1f27b0; font-size:18px; line-height:40px; color:#fff; text-align:center;}
+.discover a{  font-size:18px; line-height:40px; color:#fff; text-align:center;}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px; margin:20px auto;
+  border: 1px solid lightgrey;
+}
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+
+
+
